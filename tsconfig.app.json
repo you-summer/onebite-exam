@@ -21,7 +21,12 @@
     // "noUnusedParameters": true, // 사용되지 않는 매개변수가 있을 때 그것을 오류로 처리할건지
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src"]
 }
